@@ -5,87 +5,171 @@
 - name: صبا ابراهیمی‌نژاد
   role: دستیار ارشد
   image: saba-ebrahiminejad.webp
+  social:
+    - name: github
+      url: https://github.com/sabaebrahimi
 
 - name: نیما حیدری‌نسب
   role: دستیار ارشد
   image: nima-heydarinasab.webp
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/nimah79/
+    - name: github
+      url: https://github.com/nimah79
+    - name: twitter
+      url: https://twitter.com/Radio_Nima
 
 - name: علیرضا چقامیرزایی
   role: مسئول پروژه
   image: alireza-chaghamirzaei.webp
+  social:
+    - name: github
+      url: https://github.com/achm25
 
 - name: طاها موسوی
   role: مسئول پروژه
   image: taha-mousavi.webp
+  social:
+    - name: github
+      url: https://github.com/TahaMsv
 
 - name: امین ساوه دورودی
   role: مسئول ارزیابی
   image: amin-saveh.webp
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/aminsaveh
+    - name: github
+      url: https://github.com/Aminsaveh
 
 - name: نوید دادخواه
   role: دستیار آموزشی
   image: navid-dadkhah.webp
+  social:
+    - name: github
+      url: https://github.com/nawidadkhah
 
 - name: میثم باوی
   role: دستیار آموزشی
   image: meysam-bavi.webp
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/meysambavi
+    - name: github
+      url: https://github.com/MeysamBavi
 
 - name: محمود چوپانی
   role: دستیار آموزشی
   image: mahmood-choopani.webp
+  social:
+    - name: github
+      url: https://github.com/mchoopani
 
 - name: روزبه شریف‌نسب
   role: دستیار آموزشی
   image: roozbeh-sharifnasab.webp
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/rsharifnasab
+    - name: github
+      url: https://github.com/rsharifnasab
+    - name: twitter
+      url: https://twitter.com/rsharifnasab
 
 - name: مائده دهقان
   role: دستیار آموزشی
   image: maedeh-dehghan.webp
+  social:
+    - name: github
+      url: https://github.com/unofficialbug
 
 - name: مهرسا عرب‌زاده
   role: دستیار آموزشی
   image: mehrsa-arabzadeh.webp
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/mehrsa-arabzadeh
+    - name: github
+      url: https://github.com/mehrsa-a
 
 - name: حسن مجید زنوزی
   role: دستیار آموزشی
   image: hassan-majid-zonouzi.webp
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/hzonuz
+    - name: github
+      url: https://github.com/hzonuz
 
 - name: حسین پیشگاهی
   role: دستیار آموزشی
   image: hossein-pishgahi.webp
+  social:
+    - name: github
+      url: https://github.com/HosainP
 
 - name: آرمان چم حیدری
   role: دستیار آموزشی
   image: arman-cham-heydari.webp
+  social:
+    - name: github
+      url: https://github.com/armanheidarii
 
 - name: سپهر ابراهیمی
   role: دستیار آموزشی
   image: sepehr-ebrahimi.webp
+  social:
+    - name: github
+      url: https://github.com/IIIphr
 
 - name: سینا طاهری بهروز
   role: دستیار آموزشی
   image: sina-taheri-behrouz.webp
+  social:
+    - name: github
+      url: https://github.com/sinatb
 
 - name: غزال لقایی
   role: دستیار آموزشی
   image: ghazal-laghaee.webp
+  social:
+    - name: github
+      url: https://github.com/Ghazallghe
+    - name: twitter
+      url: https://twitter.com/LaghaeeGhazal
 
 - name: محمد شعبانی
   role: دستیار آموزشی
   image: mohammad-shabani.webp
+  social:
+    - name: github
+      url: https://github.com/MohammadShabaniSBU
 
 - name: محمدیاسر حاجیان
   role: دستیار آموزشی
   image: mohammadyaser-hajian.webp
+  social:
+    - name: github
+      url: https://github.com/Yaser-Hajian
 
 - name: علی بازوبندی
   role: دستیار آموزشی
   image: ali-bazoubandi.webp
+  social:
+    - name: github
+      url: https://github.com/AliBazoubandi
 
 - name: محمدرضا اسکینی
   role: دستیار آموزشی
   image: mohammad-eskini.webp
+  social:
+    - name: github
+      url: https://github.com/mreskini
 
 - name: سنا حقیقی
   role: دستیار آموزشی
   image: sana-haghighi.webp
+  social:
+    - name: github
+      url: https://github.com/SanaHaghighi
