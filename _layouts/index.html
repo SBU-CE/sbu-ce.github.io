@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" class="h-100">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="{{ site.university }}" name="author">
+    <title>{{ site.title }} | {{ site.description }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Vazirmatn, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column h-100">
+    <div class="col-lg-8 mx-auto p-3 py-md-5">
+        <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+            <a class="d-flex align-items-center text-dark text-decoration-none" href="/"><img class="m-4" src="assets/img/Sbu-logo.svg" width="64"> <span class="fs-4"><strong>{{ site.title }}</strong><br><small>{{ site.description }}</small></span></a>
+        </header>
+        <main class="flex-shrink-0">
+            <div class="container">
+                {% for semester in site.data.courses %}
+                <h4 class="mt-5">{{ semester.title }}</h4>
+                <ul>
+                    {% for course in semester.courses %}
+                    <li><a href="{{ course.url }}" class="text-dark text-decoration-none">{{ course.title }} - {{ course.instructor }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endfor %}
+            </div>
+        </main>
+    </div>
+</body>
+</html>

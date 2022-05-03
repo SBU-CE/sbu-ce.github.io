@@ -1,0 +1,75 @@
+{% assign page_name = page.name | replace:'.html','' %}
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ site.data[page_name].content.title }} - {{ site.data[page_name].content.semester }} | {{ site.university }}">
+    <meta property="og:title" content="{{ site.data[page_name].content.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ site.data[page_name].content.headline }}">
+    <meta property="og:locale" content="fa_IR">
+    <meta name="author" content="{{ site.university }}">
+    <title>{{ site.data[page_name].content.title }} | {{ site.title }}</title>
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/vendors.css" rel="stylesheet">
+    <link href="../assets/css/fullcalendar.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v32.102/Vazirmatn-font-face.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+  <div id="page">
+  <header class="header" style="min-height: 50px">
+    <div id="logo">
+      <a href="../"><img src="../assets/img/Sbu-logo.svg" height="42" alt="{{ site.university }}"></a>
+    </div>
+    <nav id="menu" class="main-menu">
+      <ul>
+        {% for section in site.data[page_name].sections %}
+        <li><span><a href="#{{ section.id }}">{{ section.title }}</a></span></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="hero_in" class="general">
+      <div class="wrapper">
+        <div class="container">
+          <h1><span></span>{{ site.data[page_name].content.title }}</h1>
+          <h3 class="text-white">{{ site.data[page_name].content.semester }}</h3>
+        </div>
+      </div>
+    </section>
+    <div class="features clearfix">
+      <div class="container">
+        <ul>
+          {% for item in site.data[page_name].subhero_items %}
+          <li><i class="fa-solid fa-{{ item.icon }} fa-3x mb-3"></i>
+            <h4>{{ item.title }}</h4><span>{{ item.description }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% for section in site.data[page_name].sections %}
+    {% include {{ page_name }}/sections/{{ section.id }}.html title=section.title %}
+    {% endfor %}
+  </main>
+  <footer>
+    <div class="container pt-4">
+      <div class="row">
+        <p>{{ site.data[page_name].content.footer_text }}</p>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <script src="../assets/js/jquery-3.6.0.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/fullcalendar.min.js"></script>
+  <script src="../assets/js/fa.js"></script>
+  <script src="../assets/js/fullcalendar_func.js"></script>
+</body>
+</html>

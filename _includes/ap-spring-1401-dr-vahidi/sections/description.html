@@ -1,0 +1,15 @@
+<section id="description">
+  <div class="container margin_60_35 d-flex justify-content-center">
+    <div class="col-lg-8">
+      <p class="h5 text-center mb-4 lead" style="line-height: 1.5em">{{ site.data[page_name].content.description }}</p>
+      <h5>{{ site.data[page_name].content.what_you_will_learn_label }}</h5>
+      <ul class="list_ok">
+        {% for item in site.data[page_name].what_you_will_learn %}
+        <li>
+          <h6><i class="fas fa-check"></i> {{ item }}</h6>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

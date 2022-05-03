@@ -1,0 +1,91 @@
+- name: دکتر مجتبی وحیدی اصل
+  role: استاد درس
+  image: mojtaba-vahidi-asl.webp
+
+- name: صبا ابراهیمی‌نژاد
+  role: دستیار ارشد
+  image: saba-ebrahiminejad.webp
+
+- name: نیما حیدری‌نسب
+  role: دستیار ارشد
+  image: nima-heydarinasab.webp
+
+- name: علیرضا چقامیرزایی
+  role: مسئول پروژه
+  image: alireza-chaghamirzaei.webp
+
+- name: طاها موسوی
+  role: مسئول پروژه
+  image: taha-mousavi.webp
+
+- name: امین ساوه دورودی
+  role: مسئول ارزیابی
+  image: amin-saveh.webp
+
+- name: نوید دادخواه
+  role: دستیار آموزشی
+  image: navid-dadkhah.webp
+
+- name: میثم باوی
+  role: دستیار آموزشی
+  image: meysam-bavi.webp
+
+- name: محمود چوپانی
+  role: دستیار آموزشی
+  image: mahmood-choopani.webp
+
+- name: روزبه شریف‌نسب
+  role: دستیار آموزشی
+  image: roozbeh-sharifnasab.webp
+
+- name: مائده دهقان
+  role: دستیار آموزشی
+  image: maedeh-dehghan.webp
+
+- name: مهرسا عرب‌زاده
+  role: دستیار آموزشی
+  image: mehrsa-arabzadeh.webp
+
+- name: حسن مجید زنوزی
+  role: دستیار آموزشی
+  image: hassan-majid-zonouzi.webp
+
+- name: حسین پیشگاهی
+  role: دستیار آموزشی
+  image: hossein-pishgahi.webp
+
+- name: آرمان چم حیدری
+  role: دستیار آموزشی
+  image: arman-cham-heydari.webp
+
+- name: سپهر ابراهیمی
+  role: دستیار آموزشی
+  image: sepehr-ebrahimi.webp
+
+- name: سینا طاهری بهروز
+  role: دستیار آموزشی
+  image: sina-taheri-behrouz.webp
+
+- name: غزال لقایی
+  role: دستیار آموزشی
+  image: ghazal-laghaee.webp
+
+- name: محمد شعبانی
+  role: دستیار آموزشی
+  image: mohammad-shabani.webp
+
+- name: محمدیاسر حاجیان
+  role: دستیار آموزشی
+  image: mohammadyaser-hajian.webp
+
+- name: علی بازوبندی
+  role: دستیار آموزشی
+  image: ali-bazoubandi.webp
+
+- name: محمدرضا اسکینی
+  role: دستیار آموزشی
+  image: mohammad-eskini.webp
+
+- name: سنا حقیقی
+  role: دستیار آموزشی
+  image: sana-haghighi.webp
