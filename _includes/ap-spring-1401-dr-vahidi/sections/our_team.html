@@ -11,11 +11,13 @@
               <div class="card-body text-center">
                 <img src="../assets/img/{{ member.image }}" alt="{{ member.name }}" width="128" class="img-fluid rounded-circle mb-2 shadow-sm">
                 <h6 class="mb-0">{{ member.name }}</h6><span class="small text-muted">{{ member.role }}</span>
+                {% if member.social %}
                 <ul class="social list-inline mb-0">
-                  <li class="list-inline-item"><a href="#" target="_blank" class="link-dark"><i class="fab fa-linkedin"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank" class="link-dark"><i class="fab fa-github"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank" class="link-dark"><i class="fab fa-twitter"></i></a></li>
+                  {% for social in member.social %}
+                  <li class="list-inline-item"><a href="{{ social.url }}" target="_blank" class="link-dark"><i class="fab fa-{{ social.name }}"></i></a></li>
+                  {% endfor %}
                 </ul>
+                {% endif %}
               </div>
             </div>
           </div>
