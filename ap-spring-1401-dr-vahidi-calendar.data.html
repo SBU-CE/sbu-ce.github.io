@@ -5,7 +5,7 @@ permalink: /ap-spring-1401-dr-vahidi/calendar-data/
 ---
 
 [
-    {% for event in site.data["ap-spring-1401-dr-vahidi"].calendar %}
+    {% for event in site.data.courses["ap-spring-1401-dr-vahidi"].calendar %}
     {
         "title":"{{ event.title }}",
         "start": "{{ event.date }}"
