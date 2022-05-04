@@ -20,11 +20,16 @@
         </header>
         <main class="flex-shrink-0">
             <div class="container">
-                {% for semester in site.data.courses %}
-                <h4 class="mt-5">{{ semester.title }}</h4>
+                {% assign courses = "" | split: "" %}
+                {% for course in site.data.courses %}
+                    {% assign courses = courses | push: course[1] %}
+                {% endfor %}
+                {% assign semesters = courses | sort: 'content.semester' | group_by_exp: 'item', 'item.content.semester' %}
+                {% for semester in semesters %}
+                <h4 class="mt-5">{{ site.data.semesters[semester.name] }}</h4>
                 <ul>
-                    {% for course in semester.courses %}
-                    <li><a href="{{ course.url }}" class="text-dark text-decoration-none">{{ course.title }} - {{ course.instructor }}</a></li>
+                    {% for course in semester.items %}
+                    <li><a href="{{ course.content.url }}" class="text-dark text-decoration-none">{{ course.content.title }} - {{ course.content.instructor }}</a></li>
                     {% endfor %}
                 </ul>
                 {% endfor %}

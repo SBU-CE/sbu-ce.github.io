@@ -4,11 +4,11 @@
               <div class="intro_title">
                 <h2>{{ include.title }}</h2>
                 <ul>
-                  <li>{{ site.data[page_name].ta_classes.size | replace: '0', '۰' | replace: '1', '۱' | replace: '2', '۲' | replace: '3', '۳' | replace: '4', '۴' | replace: '5', '۵' | replace: '6', '۶' | replace: '7', '۷' | replace: '8', '۸' | replace: '9', '۹' }} {{ site.data[page_name].content.ta_lessons_count_label }}</li>
+                  <li>{{ site.data.courses[page_name].ta_classes.size | replace: '0', '۰' | replace: '1', '۱' | replace: '2', '۲' | replace: '3', '۳' | replace: '4', '۴' | replace: '5', '۵' | replace: '6', '۶' | replace: '7', '۷' | replace: '8', '۸' | replace: '9', '۹' }} {{ site.data.courses[page_name].content.ta_lessons_count_label }}</li>
                 </ul>
               </div>
               <div id="accordion_lessons" role="tablist" class="add_bottom_45">
-                {% for lesson in site.data[page_name].ta_classes %}
+                {% for lesson in site.data.courses[page_name].ta_classes %}
                 <div class="card">
                   {% if forloop.index == 1 %}
                   <div class="card-header" role="tab" id="heading_{{ forloop.index }}">
@@ -20,7 +20,7 @@
                     <div class="card-body">
                       <div class="list_lessons">
                         <ul>
-                          <li>{{ site.data[page_name].content.class_info_soon }}</li>
+                          <li>{{ site.data.courses[page_name].content.class_info_soon }}</li>
                         </ul>
                       </div>
                     </div>
@@ -37,7 +37,7 @@
                     <div class="card-body">
                       <div class="list_lessons">
                         <ul>
-                          <li>{{ site.data[page_name].content.class_info_soon }}</li>
+                          <li>{{ site.data.courses[page_name].content.class_info_soon }}</li>
                         </ul>
                       </div>
                     </div>

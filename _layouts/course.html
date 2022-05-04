@@ -1,17 +1,18 @@
 {% assign page_name = page.name | replace:'.html','' %}
+{% assign semester = site.data.courses[page_name].content.semester %}
 <!DOCTYPE html>
 <html lang="fa">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{{ site.data[page_name].content.title }} - {{ site.data[page_name].content.semester }} | {{ site.university }}">
-    <meta property="og:title" content="{{ site.data[page_name].content.title }}">
+    <meta name="description" content="{{ site.data.courses[page_name].content.title }} - {{ site.data.semesters[semester] }} | {{ site.university }}">
+    <meta property="og:title" content="{{ site.data.courses[page_name].content.title }}">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="{{ site.data[page_name].content.headline }}">
+    <meta property="og:description" content="{{ site.data.courses[page_name].content.headline }}">
     <meta property="og:locale" content="fa_IR">
     <meta name="author" content="{{ site.university }}">
-    <title>{{ site.data[page_name].content.title }} | {{ site.title }}</title>
+    <title>{{ site.data.courses[page_name].content.title }} | {{ site.title }}</title>
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
     <link href="../assets/css/vendors.css" rel="stylesheet">
@@ -27,7 +28,7 @@
     </div>
     <nav id="menu" class="main-menu">
       <ul>
-        {% for section in site.data[page_name].sections %}
+        {% for section in site.data.courses[page_name].sections %}
         <li><span><a href="#{{ section.id }}">{{ section.title }}</a></span></li>
         {% endfor %}
       </ul>
@@ -37,15 +38,15 @@
     <section id="hero_in" class="general">
       <div class="wrapper">
         <div class="container">
-          <h1><span></span>{{ site.data[page_name].content.title }}</h1>
-          <h3 class="text-white">{{ site.data[page_name].content.semester }}</h3>
+          <h1><span></span>{{ site.data.courses[page_name].content.title }}</h1>
+          <h3 class="text-white">{{ site.data.semesters[semester] }}</h3>
         </div>
       </div>
     </section>
     <div class="features clearfix">
       <div class="container">
         <ul>
-          {% for item in site.data[page_name].subhero_items %}
+          {% for item in site.data.courses[page_name].subhero_items %}
           <li><i class="fa-solid fa-{{ item.icon }} fa-3x mb-3"></i>
             <h4>{{ item.title }}</h4><span>{{ item.description }}</span>
           </li>
@@ -53,14 +54,14 @@
         </ul>
       </div>
     </div>
-    {% for section in site.data[page_name].sections %}
+    {% for section in site.data.courses[page_name].sections %}
     {% include {{ page_name }}/sections/{{ section.id }}.html title=section.title %}
     {% endfor %}
   </main>
   <footer>
     <div class="container pt-4">
       <div class="row">
-        <p>{{ site.data[page_name].content.footer_text }}</p>
+        <p>{{ site.data.courses[page_name].content.footer_text }}</p>
       </div>
     </div>
   </footer>
