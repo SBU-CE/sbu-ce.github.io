@@ -6,6 +6,8 @@
   role: دستیار ارشد
   image: amirhallaji.jpg
   social:
+    - name: website
+      url: https://amirhallaji.com
     - name: linkedin
       url: https://www.linkedin.com/in/amirhallaji/
     - name: github
