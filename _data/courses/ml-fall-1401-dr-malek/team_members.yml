@@ -1,0 +1,49 @@
+- name: دکتر مجتبی وحیدی اصل
+  role: استاد درس
+  image: mojtaba-vahidi-asl.webp
+
+- name: امیر حلاجی بیدگلی
+  role: دستیار ارشد
+  image: nima-heydarinasab.webp
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/amirhallaji/
+    - name: github
+      url: https://github.com/amirhallaji
+    - name: twitter
+      url: https://twitter.com/amirhallaji_
+
+
+- name: مهتاب سرلک
+  role: دستیار آموزشی
+  image: meysam-bavi.webp
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/meysambavi
+    - name: github
+      url: https://github.com/MeysamBavi
+
+- name: امیرحسام بلندی
+  role: دستیار آموزشی
+  image: mahmood-choopani.webp
+  social:
+    - name: github
+      url: https://github.com/mchoopani
+
+- name: امین شفیعی
+  role: دستیار آموزشی
+  image: roozbeh-sharifnasab.webp
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/rsharifnasab
+    - name: github
+      url: https://github.com/rsharifnasab
+    - name: twitter
+      url: https://twitter.com/rsharifnasab
+
+- name: حمید صفاری
+  role: دستیار آموزشی
+  image: maedeh-dehghan.webp
+  social:
+    - name: github
+      url: https://github.com/unofficialbug
