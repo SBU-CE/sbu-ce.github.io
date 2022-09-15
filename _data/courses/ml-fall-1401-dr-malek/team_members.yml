@@ -1,10 +1,10 @@
-- name: دکتر مجتبی وحیدی اصل
+- name: دکتر حامد ملک
   role: استاد درس
   image: mojtaba-vahidi-asl.webp
 
 - name: امیر حلاجی بیدگلی
   role: دستیار ارشد
-  image: nima-heydarinasab.webp
+  image: https://github.com/amirhallaji
   social:
     - name: linkedin
       url: https://www.linkedin.com/in/amirhallaji/
