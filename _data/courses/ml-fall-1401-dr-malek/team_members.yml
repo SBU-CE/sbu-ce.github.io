@@ -6,8 +6,6 @@
   role: دستیار ارشد
   image: amirhallaji.jpg
   social:
-    - name: website
-      url: https://amirhallaji.com
     - name: linkedin
       url: https://www.linkedin.com/in/amirhallaji/
     - name: github
@@ -27,11 +25,11 @@
   image: aminshafeiei.jpg
   social:
     - name: github
-      url: https://github.com/rsharifnasab
+      url: https://github.com/Mamin78
 
 - name: حمید صفاری
   role: دستیار آموزشی
   image: hamidsaffari.jpg
   social:
     - name: github
-      url: https://github.com/unofficialbug
+      url: https://github.com/hamidds
