@@ -1,6 +1,6 @@
 - name: دکتر حامد ملک
   role: استاد درس
-  image: mojtaba-vahidi-asl.webp
+  image: hamedmalek.jpg
 
 - name: امیر حلاجی بیدگلی
   role: دستیار ارشد
@@ -13,37 +13,23 @@
     - name: twitter
       url: https://twitter.com/amirhallaji_
 
-
-- name: مهتاب سرلک
-  role: دستیار آموزشی
-  image: meysam-bavi.webp
-  social:
-    - name: linkedin
-      url: https://www.linkedin.com/in/meysambavi
-    - name: github
-      url: https://github.com/MeysamBavi
-
 - name: امیرحسام بلندی
   role: دستیار آموزشی
-  image: mahmood-choopani.webp
+  image: amirhesambolandi.jpg
   social:
     - name: github
-      url: https://github.com/mchoopani
+      url: https://github.com/ahessamb
 
 - name: امین شفیعی
   role: دستیار آموزشی
-  image: roozbeh-sharifnasab.webp
+  image: aminshafeiei.jpg
   social:
-    - name: linkedin
-      url: https://www.linkedin.com/in/rsharifnasab
     - name: github
       url: https://github.com/rsharifnasab
-    - name: twitter
-      url: https://twitter.com/rsharifnasab
 
 - name: حمید صفاری
   role: دستیار آموزشی
-  image: maedeh-dehghan.webp
+  image: hamidsaffari.jpg
   social:
     - name: github
       url: https://github.com/unofficialbug
