@@ -1,6 +1,9 @@
 - name: دکتر حامد ملک
   role: استاد درس
   image: hamedmalek.jpg
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/hamedmalek/
 
 - name: امیر حلاجی بیدگلی
   role: دستیار ارشد
