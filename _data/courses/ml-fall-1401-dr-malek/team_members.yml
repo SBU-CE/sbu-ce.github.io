@@ -20,6 +20,14 @@
     - name: github
       url: https://github.com/ahessamb
 
+- name: مهتاب سرلک
+  role: دستیار آموزشی
+  image: mahtabsarlak.jpg
+  social:
+    - name: github
+      url: https://github.com/mahtab2
+
+
 - name: امین شفیعی
   role: دستیار آموزشی
   image: aminshafeiei.jpg
