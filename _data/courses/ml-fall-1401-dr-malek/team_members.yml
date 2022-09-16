@@ -22,7 +22,7 @@
 
 - name: مهتاب سرلک
   role: دستیار آموزشی
-  image: mahtabsarlak.jpg
+  image: mahtabsarlak.jfif
   social:
     - name: github
       url: https://github.com/mahtab2
