@@ -1,0 +1,58 @@
+- name: دکتر رامک قوامی‌زاده
+  role: استاد درس
+  image: ramak-ghavamizadeh.jpg
+  social:
+    - name: linkedin
+      url: https://ir.linkedin.com/in/ramak-ghavamizadeh-b211aa82
+
+- name: نیما حیدری‌نسب
+  role: دستیار ارشد
+  image: nima-heydarinasab.webp
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/nimah79/
+    - name: github
+      url: https://github.com/nimah79
+    - name: twitter
+      url: https://twitter.com/Radio_Nima
+
+- name: پارسا نوری
+  role: دستیار آموزشی
+  image: parsa-nouri.jpg
+  social:
+    - name: github
+      url: https://github.com/parsanoori
+
+- name: پوریا زمان‌وزیری
+  role: دستیار آموزشی
+  image: pourya-zamanvaziri.jpg
+  social:
+    - name: github
+      url: https://github.com/Pouryazv
+
+
+
+- name: زهرا استاد محمدی
+  role: دستیار آموزشی
+  image: zahra-ostad-mohammadi.jpg
+
+
+- name: فائزه سرلکی‌فر
+  role: دستیار آموزشی
+  image: faeze-sarlakifar.jpg
+  social:
+    - name: linkedin
+      url: https://ir.linkedin.com/in/faeze-sarlakifar-612015199
+    - name: github
+      url: https://github.com/faezesarlakifar
+
+- name: زهرا طیبی جزایری
+  role: دستیار آموزشی
+  image: zahra-tayebi-jazayeri.jpg
+  social:
+    - name: linkedin
+      url: https://ir.linkedin.com/in/zahra-tayebi-jazayeri-85120b228
+
+- name: امیررضا راعی
+  role: دستیار آموزشی
+  image: amirreza-raei.jpg

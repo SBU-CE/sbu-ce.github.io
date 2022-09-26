@@ -1,0 +1,23 @@
+- title: Regular Languages & Expressions
+
+- title: Finite State Automatas
+
+- title: NFA to DFA Conversion & FSA Reduction
+
+- title: DFA & NFA Simulation
+
+- title: Regular Grammars
+
+- title: Pumping Lemma for Regular Languages
+
+- title: Context-Free Languages & Grammars
+
+- title: Ambiguity in Grammars & Normal Forms
+
+- title: Pushdown Automatas
+
+- title: DPDA Simulation & CYK Algorithm
+
+- title: Properties of Context-Free Languages
+
+- title: Turing Machine & Context Sensitive Grammars

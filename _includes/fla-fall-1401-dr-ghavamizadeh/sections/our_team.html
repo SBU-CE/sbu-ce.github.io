@@ -1,0 +1,27 @@
+<section id="our_team" class="bg-white">
+    <div class="container margin_120_95">
+      <div class="main_title_2">
+        <span><em></em></span>
+        <h2>{{ include.title }}</h2>
+      </div>
+      <div class="row d-flex justify-content-center">
+        {% for member in site.data.courses[page_name].team_members %}
+          <div class="col-xl-2 col-sm-4 col-xs-6 mb-5">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <img src="../assets/img/{{ member.image }}" alt="{{ member.name }}" width="128" class="img-fluid rounded-circle mb-2 shadow-sm">
+                <h6 class="mb-0">{{ member.name }}</h6><span class="small text-muted">{{ member.role }}</span>
+                {% if member.social %}
+                <ul class="social list-inline mb-0">
+                  {% for social in member.social %}
+                  <li class="list-inline-item"><a href="{{ social.url }}" target="_blank" class="link-dark"><i class="fab fa-{{ social.name }}"></i></a></li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+</section>
