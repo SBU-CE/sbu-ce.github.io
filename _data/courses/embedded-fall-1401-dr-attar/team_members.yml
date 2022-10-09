@@ -1,0 +1,29 @@
+- name: دکتر سید حسین عطارزاده نیاکی
+  role: استاد درس
+  image: attar.jpg
+  social:
+    - name: github
+      url: https://github.com/shaniaki
+
+
+- name: احمد صالح اصفهانی
+  role: دستیار آموزشی
+  image: ahmadsaleh.jfif
+  social:
+    - name: github
+      url: https://github.com/ahmadsalehesfahani
+
+
+- name: امین شفیعی
+  role: دستیار آموزشی
+  image: aminshafeiei.jpg
+  social:
+    - name: github
+      url: https://github.com/Mamin78
+
+- name: حمیدرضا صفاری
+  role: دستیار آموزشی
+  image: hamidsaffari.jpg
+  social:
+    - name: github
+      url: https://github.com/hamidds
