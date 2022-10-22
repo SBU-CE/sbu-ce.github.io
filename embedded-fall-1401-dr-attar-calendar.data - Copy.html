@@ -1,0 +1,14 @@
+---
+layout: 
+title: 
+permalink: /embedded-fall-1401-dr-attar/calendar-data/
+---
+
+[
+    {% for event in site.data.courses["embedded-fall-1401-dr-attar"].calendar %}
+    {
+        "title":"{{ event.title }}",
+        "start": "{{ event.date }}"
+    }{%unless forloop.last %},{% endunless %}
+    {% endfor %}
+]

@@ -23,6 +23,15 @@
     - name: github
       url: https://github.com/ahessamb
 
+- name: متین زیودار
+  role: دستیار آموزشی
+  image: matinzivdar.jpg
+  social:
+    - name: github
+      url: https://github.com/zivdar001matin
+
+
+
 - name: مهتاب سرلک
   role: دستیار آموزشی
   image: mahtabsarlak.jfif

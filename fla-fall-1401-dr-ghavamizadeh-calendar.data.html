@@ -1,0 +1,14 @@
+---
+layout: 
+title: 
+permalink: /fla-fall-1401-dr-ghavamizadeh/calendar-data/
+---
+
+[
+    {% for event in site.data.courses["fla-fall-1401-dr-ghavamizadeh"].calendar %}
+    {
+        "title":"{{ event.title }}",
+        "start": "{{ event.date }}"
+    }{%unless forloop.last %},{% endunless %}
+    {% endfor %}
+]
