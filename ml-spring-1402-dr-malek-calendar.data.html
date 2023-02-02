@@ -1,0 +1,14 @@
+---
+layout: 
+title: 
+permalink: /ml-spring-1402-dr-malek/calendar-data/
+---
+
+[
+    {% for event in site.data.courses["ml-spring-1402-dr-malek"].calendar %}
+    {
+        "title":"{{ event.title }}",
+        "start": "{{ event.date }}"
+    }{%unless forloop.last %},{% endunless %}
+    {% endfor %}
+]
