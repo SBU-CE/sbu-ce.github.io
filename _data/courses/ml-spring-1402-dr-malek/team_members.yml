@@ -44,7 +44,9 @@
   image: 
   social:
     - name: github
-      url: https://github.com/mahtab2
+      url: https://github.com/Mohammadreza-mz
+    - name: linkedin
+      url: https://www.linkedin.com/in/mohammadreza-m-310824210/
 
 
 - name: زهرا ختن‌لو
@@ -53,10 +55,14 @@
   social:
     - name: github
       url: https://github.com/zkhotanlou
+    - name: linkedin 
+      url: https://www.linkedin.com/in/zahra-khotanlou-3baa75203
 
-- name: محمدمهدی معصوم‌پور
+- name: مهدی معصوم‌پور
   role: دستیار آموزشی
   image: hamidsaffari.jpg
   social:
     - name: github
-      url: https://github.com/hamidds
+      url: https://github.com/masoom80
+    - name: linkedin
+      url: https://www.linkedin.com/in/mahdi-masoompoor-askari-61a67a22a
