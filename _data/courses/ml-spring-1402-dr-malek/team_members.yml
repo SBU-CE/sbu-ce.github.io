@@ -1,0 +1,62 @@
+- name: دکتر حامد ملک
+  role: استاد درس
+  image: hamedmalek.jpg
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/hamedmalek/
+
+- name: امیر حلاجی بیدگلی
+  role: دستیار ارشد
+  image: amirhallaji.jpg
+  social:
+    - name: linkedin
+      url: https://www.linkedin.com/in/amirhallaji/
+    - name: github
+      url: https://github.com/amirhallaji
+    - name: twitter
+      url: https://twitter.com/amirhallaji_
+
+- name: متین زیودار
+  role: دستیار آموزشی
+  image: matinzivdar.jpg
+  social:
+    - name: github
+      url: https://github.com/zivdar001matin
+
+- name: امیرمسعود شاکر
+  role: دستیار آموزشی
+  image: amirhesambolandi.jpg
+  social:
+    - name: github
+      url: https://github.com/ahessamb
+
+
+- name: فائزه سرلکی‌فر
+  role: دستیار آموزشی
+  image: amirhesambolandi.jpg
+  social:
+    - name: github
+      url: https://github.com/ahessamb
+
+
+- name: محمدرضا محمدزاده
+  role: دستیار آموزشی
+  image: 
+  social:
+    - name: github
+      url: https://github.com/mahtab2
+
+
+- name: زهرا ختن‌لو
+  role: دستیار آموزشی
+  image: aminshafeiei.jpg
+  social:
+    - name: github
+      url: https://github.com/Mamin78
+
+- name: محمدمهدی معصوم‌پور
+  role: دستیار آموزشی
+  image: hamidsaffari.jpg
+  social:
+    - name: github
+      url: https://github.com/hamidds
